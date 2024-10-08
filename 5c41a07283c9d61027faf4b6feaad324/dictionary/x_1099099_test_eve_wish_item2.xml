@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1a97a8be834dd61027faf4b6feaad3de" label="Wish Item2" max_length="40" name="x_1099099_test_eve_wish_item2" type="collection">
+        <element label="Item" max_length="40" name="item" type="string"/>
+        <element label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="requestor"/>
+        </index>
+    </element>
+</database>
